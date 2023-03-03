@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>getAlian</servlet-name>
+  	<display-name>getAlian</display-name>
+  	<description></description>
+  	<servlet-class>com.pearl.GetAlianController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>getAlian</servlet-name>
+  	<url-pattern>/getAlian</url-pattern>
+  </servlet-mapping>
 </web-app>
